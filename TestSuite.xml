@@ -1,0 +1,77 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite verbose="2" name="TestSuite">
+    <test name="Testportfolio">
+        <classes>
+            <class name="com.investasikita.test.robo.TestImbalHasil"/>
+            <class name="com.investasikita.test.robo.TestTestKenaikanPersen"/>
+            <class name="com.investasikita.test.robo.TestSavednow"/>
+        </classes>
+    </test>      
+    <test name="TestRobodet">
+        <classes>
+            <class name="com.investasikita.test.robo.TestEdukasiDetailGoal"/>
+            <class name="com.investasikita.test.robo.TestEdukasiDetailNabung"/>
+            <class name="com.investasikita.test.robo.TestKendaraanDetailGoal"/>
+            <class name="com.investasikita.test.robo.TestKendaraanDetailNabung"/>
+            <class name="com.investasikita.test.robo.TestOtherDetailGoal"/>
+            <class name="com.investasikita.test.robo.TestOtherDetailNabung"/>
+            <class name="com.investasikita.test.robo.TestRetirementDetailGoal"/>
+            <class name="com.investasikita.test.robo.TestRetirementDetailNabung"/>
+            <class name="com.investasikita.test.robo.TestTravellDetailGoal"/>
+            <class name="com.investasikita.test.robo.TestTravellDetailNabung"/>            
+            <class name="com.investasikita.test.robo.TestWeddingDetailGoal"/>
+            <class name="com.investasikita.test.robo.TestWeddingDetailNabung"/>
+        </classes>
+    </test>
+    <test name="TestRoboNeg">
+        <classes>
+            <class name="com.investasikita.test.robo.TestEdukasiDetailNabungAlp"/>
+            <class name="com.investasikita.test.robo.TestEdukasiDetailNabungNull"/>            
+            <class name="com.investasikita.test.robo.TestKendaraanDetailNabungAlp"/>
+            <class name="com.investasikita.test.robo.TestKendaraanDetailNabungNull"/>
+            <class name="com.investasikita.test.robo.TestOtherDetailNabungAlp"/>
+            <class name="com.investasikita.test.robo.TestOtherDetailNabungNull"/>            
+            <class name="com.investasikita.test.robo.TestRetirementDetailNabungAlp"/>
+            <class name="com.investasikita.test.robo.TestRetirementDetailNabungNull"/>
+            <class name="com.investasikita.test.robo.TestTravellDetailNabungAlp"/>            
+            <class name="com.investasikita.test.robo.TestTravellDetailNabungNull"/>            
+            <class name="com.investasikita.test.robo.TestWeddingDetailNabungAlp"/>
+            <class name="com.investasikita.test.robo.TestWeddingDetailNabungNull"/>            
+        </classes>
+    </test>
+
+    <test name="TestRoboPersen">
+        <classes>
+            <class name="com.investasikita.test.robo.TestValueKendaraanPersen"/>
+            <class name="com.investasikita.test.robo.TestValueOtherPersen"/>
+            <class name="com.investasikita.test.robo.TestValueTravellPersen"/>
+            <class name="com.investasikita.test.robo.TestValueWeddingPersen"/>
+  
+        </classes>
+    </test>
+    <test name="TestRoboSaved">
+        <classes>
+            <class name="com.investasikita.test.robo.TestValueEdukasiSaved"/>
+            <class name="com.investasikita.test.robo.TestValueKendaraanSaved"/>
+            <class name="com.investasikita.test.robo.TestValueOtherSaved"/>
+            <class name="com.investasikita.test.robo.TestValueRetirementSaved"/>            
+            <class name="com.investasikita.test.robo.TestValueTravellPersen"/>
+            <class name="com.investasikita.test.robo.TestValueWeddingPersen"/>
+  
+        </classes>
+    </test>
+
+    <test name="TestRoboMenu">
+        <classes>
+            <class name="com.investasikita.test.robo.TestRebalancingEdukasiDet"/>
+            <class name="com.investasikita.test.robo.TestRebalancingKendaraanDet"/>
+            <class name="com.investasikita.test.robo.TestRebalancingTravellDet"/>            
+            <class name="com.investasikita.test.robo.TestRiwayatEdukasiDet"/>
+            <class name="com.investasikita.test.robo.TestRiwayatKendaraanDet"/>
+            <class name="com.investasikita.test.robo.TestRiwayatTravellDet"/>
+            
+        </classes>
+    </test>
+          
+</suite>
